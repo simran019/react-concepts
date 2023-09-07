@@ -4,5 +4,10 @@ const nextConfig = {
     appDir: true,
   },
 }
-
+module.exports = {
+  images: {
+    loader: 'custom',
+    loaderFile: './my/image/loader.js',
+  },
+}
 module.exports = nextConfig
